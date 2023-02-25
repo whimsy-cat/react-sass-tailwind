@@ -1,0 +1,77 @@
+.button {
+    .btn-default {
+        background-color: var(--btn-default-color);
+        color: var(--white-color);
+        padding: 12px 30px;
+        border-radius: 30px;
+        font-size: 16px;
+        border: none;
+        margin: 30px 8px;
+        line-height: 1.5;  
+        transition: 0.3s;
+        &:hover {
+            background-color: var(--bg-gradient-end);
+        }
+    }   
+    
+    .btn-secondary {
+        background-color: var(--white-color);
+        border: 1px solid var(--btn-default-color);
+        color: var(--btn-default-color);
+        padding: 12px 30px;
+        border-radius: 30px;
+        font-size: 16px;
+        margin: 30px 8px;
+        transition: 0.3s;
+        line-height: 1.5;
+        &:hover {
+            background-color: var(--btn-default-color);
+            color : var(--white-color);
+        }
+    }
+    
+    .btn-basic {
+        background-color: var(--white-color);
+        border: 1px solid #777;
+        color: #777;
+        padding: 12px 30px;
+        border-radius: 30px;
+        font-size: 16px;
+        margin: 30px 8px;
+        transition: 0.3s;
+        line-height: 1.5;
+        &:hover {
+            background-color: var(--btn-light-hover);
+            color : var(--white-color);
+        }
+    }  
+    
+    .btn-standard {
+        background-color: var(--btn-default-color);
+        color: var(--white-color);
+        padding: 12px 30px;
+        border-radius: 30px;
+        font-size: 16px;
+        border: none;
+        margin: 30px 8px;
+        transition: 0.3s;
+        line-height: 1.5;
+        &:hover {
+            background-color: var(--bg-gradient-end);
+        }
+    }  
+    .btn-premium {   
+        background-color: var(--premium-color);
+        color: var(--white-color);
+        padding: 12px 30px;
+        border-radius: 30px;
+        font-size: 16px;
+        border: none;
+        margin: 30px 8px;
+        transition: 0.3s;
+        line-height: 1.5;
+        &:hover {
+            background-color: var(--premium-hover);
+        }
+    }
+}
